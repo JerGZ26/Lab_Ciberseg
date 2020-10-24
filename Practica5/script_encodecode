@@ -1,0 +1,55 @@
+#!/bin/bash
+
+function decode {
+echo 'Ingrese el path del archivo que desea decodificar'
+read path
+
+echo 'Desea guardar como archivo png o txt:'
+read ext
+
+if [[ "$ext" != "png" && "$ext" != "txt" ]]; then
+	echo 'ERROR, vuelva a intentarlo'
+else
+	filename="${path##*/}"
+	filename2="${filename%.*}"
+	cat $path | base64 --decode > "$filename2 decode.$ext"
+fi
+}
+
+function encode {
+echo 'Ingrese el path del archivo que desea codificar'
+read path
+
+echo 'Desea guardar como archivo png o txt:'
+read ext
+
+if [[ "$ext" != "png" && "$ext" != "txt" ]]; then
+	echo 'ERROR, vuelva a intentarlo'
+else
+	filename="${path##*/}"
+	filename2="${filename%.*}"
+	cat $path | base64 > "$filename2 encode.$ext"
+fi
+}
+
+echo 'Que desea hacer [1]codificar, [2]decodificar, [3]Salir'
+read op
+
+if [ "$op" == "1" ];
+then
+	encode
+elif [ "$op" == "2" ];
+then
+	decode
+else
+	exit
+fi
+
+function md {
+	md5sum /root/Descargas/mystery_img1.txt
+	md5sum /root/Descargas/mystery_img2.txt
+	md5sum /root/Descargas/fcfm.png
+	md5sum /root/Descargas/msg.txt
+}
+md
+
