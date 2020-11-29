@@ -1,0 +1,156 @@
+
+Configuraci¢n IP de Windows
+
+    1.0.0.127.in-addr.arpa
+    ----------------------------------------
+    Nombre de registro  . : 1.0.0.127.in-addr.arpa.
+    Tipo de registro  . . : 12
+    Per¡odo de vida . . . : 576300
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro PTR. . . . . : kubernetes.docker.internal
+
+
+    gateway.docker.internal
+    ----------------------------------------
+    No hay registros de tipo AAAA
+
+
+    gateway.docker.internal
+    ----------------------------------------
+    Nombre de registro  . : gateway.docker.internal
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 576300
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 10.0.0.4
+
+
+    config.nos-avg.cz
+    ----------------------------------------
+    Nombre de registro  . : config.nos-avg.cz
+    Tipo de registro  . . : 16
+    Per¡odo de vida . . . : 19640
+    Longitud de datos . . : 16
+    Secci¢n . . . . . . . : respuesta
+    array812.prod.do.dsp.mp.microsoft.com
+    ----------------------------------------
+    Nombre de registro  . : array812.prod.do.dsp.mp.microsoft.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 2857
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 52.143.87.28
+
+
+    laptop.mshome.net
+    ----------------------------------------
+    No hay registros de tipo AAAA
+
+
+    laptop.mshome.net
+    ----------------------------------------
+    Nombre de registro  . : Laptop.mshome.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 576299
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 172.21.160.1
+
+
+    Nombre de registro  . : Laptop.mshome.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 576299
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 192.168.137.1
+
+
+    4.0.0.10.in-addr.arpa
+    ----------------------------------------
+    Nombre de registro  . : 4.0.0.10.in-addr.arpa.
+    Tipo de registro  . . : 12
+    Per¡odo de vida . . . : 576299
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro PTR. . . . . : host.docker.internal
+
+
+    Nombre de registro  . : 4.0.0.10.in-addr.arpa.
+    Tipo de registro  . . : 12
+    Per¡odo de vida . . . : 576299
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro PTR. . . . . : gateway.docker.internal
+
+
+    byte-mind.net
+    ----------------------------------------
+    Nombre de registro  . : byte-mind.net
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 323
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 35.214.204.187
+
+
+    kubernetes.docker.internal
+    ----------------------------------------
+    No hay registros de tipo AAAA
+
+
+    kubernetes.docker.internal
+    ----------------------------------------
+    Nombre de registro  . : kubernetes.docker.internal
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 576299
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 127.0.0.1
+
+
+    1.137.168.192.in-addr.arpa
+    ----------------------------------------
+    Nombre de registro  . : 1.137.168.192.in-addr.arpa.
+    Tipo de registro  . . : 12
+    Per¡odo de vida . . . : 576299
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro PTR. . . . . : Laptop.mshome.net
+
+
+    host.docker.internal
+    ----------------------------------------
+    No hay registros de tipo AAAA
+
+
+    host.docker.internal
+    ----------------------------------------
+    Nombre de registro  . : host.docker.internal
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 576299
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 10.0.0.4
+
+
+    1.160.21.172.in-addr.arpa
+    ----------------------------------------
+    Nombre de registro  . : 1.160.21.172.in-addr.arpa.
+    Tipo de registro  . . : 12
+    Per¡odo de vida . . . : 576299
+    Longitud de datos . . : 8
+    Secci¢n . . . . . . . : respuesta
+    Registro PTR. . . . . : Laptop.mshome.net
+
+
+    obsproject.com
+    ----------------------------------------
+    Nombre de registro  . : obsproject.com
+    Tipo de registro  . . : 1
+    Per¡odo de vida . . . : 71310
+    Longitud de datos . . : 4
+    Secci¢n . . . . . . . : respuesta
+    Un registro (host). . : 149.56.72.190
+
+
